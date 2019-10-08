@@ -1,0 +1,44 @@
+.mainPaper{
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.mainWrapper{
+  padding: 2%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.topBar{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.headingSec{
+  text-align: center;
+}
+
+.divider{
+  margin: 5px 4%;
+}
+
+.flexBox{
+  width: 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flexBox>div{
+  width: 10%;
+}
+
+.listSection{
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}

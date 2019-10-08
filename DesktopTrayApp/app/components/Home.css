@@ -1,0 +1,53 @@
+.mainPaper{
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+.mainWrapper{
+  height: 60vh;
+  padding: 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.doorIcon{
+  height: 100px;
+  width: auto;
+}
+
+.topBar{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.flexBox{
+  width: 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flexBox>div{
+  width: 10%;
+}
+
+.mainDiv{
+  /* background-color: lightcoral; */
+  width: 100%;
+  text-align: center;
+}
+
+.fontFamily{
+  font-weight: 300;
+}
+
+.statusSection{
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  margin-top: 20%;
+  /* background-color: lightcoral; */
+}
